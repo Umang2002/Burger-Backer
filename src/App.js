@@ -1,15 +1,19 @@
 import React,{Component} from 'react'
 import './App.css';
+import Layout from './HOC/Layout/Layout'
+import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder'
+
 
 class App extends Component {
-  render(){
+  render(){ 
     return (
       <div>
-      This Is working!!!!
+       <Layout>
+         <BurgerBuilder />
+       </Layout>
       </div>
     );
   }
 };
-
 
 export default App;
