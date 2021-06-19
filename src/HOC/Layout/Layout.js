@@ -15,7 +15,7 @@ class Layout extends Component {
              showSideDrawer:false
          })
     }
-
+ 
     SideDrawerOpenHandler =() => {
         this.setState({
             showSideDrawer:true
